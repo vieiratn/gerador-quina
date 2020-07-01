@@ -8,11 +8,12 @@ router.get('/', (req, res) => {
         description: "Api that returns an array with a guess for the Quina Lottery.",
         author: "Thiago Nascimento",
         endpoint: "/quina",
+        method: "POST",
         status: "Api's up and running."
     })
 })
 
-router.get('/quina', (req, res) => {
+router.post('/quina', (req, res) => {
     return res.status(200).json({ guess: game.makeGame() })
 })
 
