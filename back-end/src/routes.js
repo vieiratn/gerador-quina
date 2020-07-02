@@ -6,10 +6,10 @@ const router = express.Router()
 
 router.get('/', (req, res) => {
     return res.status(200).json({ 
-        description: "Api that returns an array with a guess for the Quina Lottery.",
+        description: "Return an array with a guess for Quina lottery.",
         author: "Thiago Nascimento",
         endpoint: "/quina",
-        method: "POST",
+        method: "GET",
         status: "Api's up and running."
     })
 })

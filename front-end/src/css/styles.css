@@ -6,7 +6,7 @@ body {
     color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
     font-family: 'Merriweather', serif;
     font-size: 4rem;
     font-weight: bold;
@@ -18,7 +18,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .game-container {
     margin: 15px auto;
-    
 }
 
 .button-container {
@@ -36,5 +35,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 25px;
     box-shadow: 3px 3px 8px black;
     margin: 0 5px;
+}
 
+.footer-container {
+    padding: 15px auto;
 }
