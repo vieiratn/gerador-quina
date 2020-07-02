@@ -22,7 +22,9 @@ As dependências de produção do projeto são: [Express](https://www.npmjs.com/
 
 2 - Entrar na pasta "back-end" e rodar o comando "npm install";
 
-3 - Acessar na pasta "front-end" o arquivo "index.html" através de uma solução de "Live Server".
+3 - Rodar o comando "npm start" dentro da pasta "back-end";
+
+4 - Acessar na pasta "front-end" o arquivo "index.html" através de uma solução de "Live Server".
 
 ## Versionamento
 
